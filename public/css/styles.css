@@ -37,6 +37,7 @@ font-weight: bold;
 
 
 .load {
+color: white;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
