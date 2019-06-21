@@ -13,7 +13,8 @@
 
 <div class="articles">
     <div class="load"></div>
-    {{#each_upto articles 5}}
+    <!--limit handlebars article diplay count -->
+    {{#each_upto articles 10}}
         {{#unless saved}}
         <div class="article card">
           <div class="card-body">
